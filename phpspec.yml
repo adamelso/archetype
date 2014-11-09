@@ -1,0 +1,2 @@
+suites:
+    Archetype: { namespace: Sylius\Component\Archetype, psr4_prefix: Sylius\Component\Archetype }

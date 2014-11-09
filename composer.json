@@ -1,0 +1,34 @@
+{
+    "name": "sylius/archetype",
+    "description": "Build subjects with inherited options and attributes based on an archetype",
+    "require": {
+        "sylius/attribute": "~0.12@dev",
+        "sylius/variation": "~0.12@dev"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Elsodaney",
+            "email": "adam.elso@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": { "Sylius\\Component\\Archetype\\": "" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Sylius\\Component\\Archetype\\spec\\": "spec/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.12-dev"
+        }
+    }
+}
