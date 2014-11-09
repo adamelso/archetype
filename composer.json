@@ -2,8 +2,11 @@
     "name": "sylius/archetype",
     "description": "Build subjects with inherited options and attributes based on an archetype",
     "require": {
-        "sylius/attribute": "~0.12@dev",
-        "sylius/variation": "~0.12@dev"
+        "php": ">=5.3.3",
+
+        "sylius/resource":  "0.12.*@dev",
+        "sylius/attribute": "0.12.*@dev",
+        "sylius/variation": "0.12.*@dev"
     },
     "require-dev": {
         "phpspec/phpspec": "dev-master"
