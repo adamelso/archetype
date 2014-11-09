@@ -14,7 +14,7 @@ use Sylius\Component\Variation\Model\VariantInterface;
 class ArchetypeDerivativeBuilder implements ArchetypeDerivativeBuilderInterface
 {
     /**
-     * Product attribute repository.
+     * Attribute value repository.
      *
      * @var RepositoryInterface
      */
